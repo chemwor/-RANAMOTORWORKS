@@ -26,7 +26,7 @@ interface ContentType {
 }[];
 
 const content_data: ContentType = {
-   title_1: "Benefits of Ceramic Coating",
+   title_1: "Maintenance Wash Services",
    title_2: "Quick Processing.",
    title_3: "Benefit you will get.",
    desc_1: (<>Introducing our Maintenance Wash service – the ultimate solution for both ceramic-coated and non-ceramic-coated cars. Our quick and efficient exterior wash is designed to enhance your vehicle's appearance and protect it from the elements. We offer added protection sealants and collaborate with top-tier chemical companies like Koch-Chemi to ensure your car receives the best care possible. Elevate your ride with our premium maintenance wash today!</>),

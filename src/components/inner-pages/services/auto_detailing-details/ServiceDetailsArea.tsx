@@ -26,13 +26,17 @@ interface ContentType {
 }[];
 
 const content_data: ContentType = {
-   title_1: "Benefits of Ceramic Coating",
-   title_2: "Quick Processing.",
-   title_3: "Benefit you will get.",
+   title_1: "Experience the Ultimate Shine With Our Expert Detailing Team",
+   title_2: "Unmatched Expertise",
+   title_3: "Attention to Detail",
    desc_1: (<>At RanaMotorWorks in Powder Springs, GA, we take auto detailing seriously. Our team is dedicated to providing top-notch vehicle detailing services that will leave your ride looking like it just rolled off the assembly line.</>),
-   desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
-   desc_3: (<>Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.</>),
-   desc_4: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</>),
+   desc_2: (<>We believe that every car deserves royal treatment, which is why we use only the finest products and techniques to achieve showroom-quality results. Our ceramic coating services are second to none, providing long-lasting protection against the elements and preserving your car's immaculate finish. From exterior washes and waxes to interior detailing and leather conditioning, we offer a wide range of services to suit your needs. Whether you're looking to spruce up your daily driver or get your prized possession ready for the next car show, we've got you covered.</>),
+   desc_3: (<>At RanaMotorWorks, we understand that your car is not just a way to transport yourself. It's a part of your personality and a reflection of your style. That's why we take the time to get to know our customers and their vehicles so we can offer personalized service tailored to your unique needs. We know that there are plenty of auto detailing shops out there to choose from, but we're confident that we're the best in the business. Our commitment to quality, craftsmanship, and customer satisfaction is unwavering, and we won't rest until you're 100% happy with the results.</>),
+   desc_4: (<>Our detailing experts at RanaMotorWorks have years of experience and extensive training in the latest techniques and products. We believe that every vehicle deserves to look its best, no matter the make or model. That's why we offer a range of detailing services to suit every need and budget.
+
+      ​
+
+      If you're looking for top-tier auto detailing services in Powder Springs, GA, look no further than RanaMotorWorks. Book an appointment with us today and experience the difference for yourself!</>),
    service_features: [
       {
          icon: seviceDetailsIcon_1,

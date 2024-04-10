@@ -38,7 +38,7 @@ const NavMenu = () => {
                 <Link className="nav-link" href="/home-three">Home</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" href="/about_us_01">About Us</Link>
+                <Link className="nav-link" href="/about_us_01">About</Link>
             </li>
             {menu_data.map((menu: any) => (
                 <li key={menu.id} className={`nav-item dropdown ${menu.class_name}`}>

@@ -37,7 +37,7 @@ const menu_data: MenuItem[] = [
         has_dropdown: true,
         title: "Get quote",
         class_name:"mega-dropdown-sm",
-        link: "contact",
+        link: "/get_quote",
         menu_column: [
             {
                 id: 1,

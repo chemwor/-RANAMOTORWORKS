@@ -26,14 +26,15 @@ interface ContentType {
 }[];
 
 const content_data: ContentType = {
-   title_1: "Benefits of Ceramic Coating",
-   title_2: "Quick Processing.",
-   title_3: "Benefit you will get.",
+   title_1: "Vehicle Paint Protection",
+   title_2: "The Importance of a Ceramic Coating",
+   title_3: "Precision and Perfection",
    desc_1: (<>At RanaMotorWorks, we understand that your vehicle, whether it's a family van for daily errands or a cherished sports car for weekend drives, is more than just a means of transportation. It's an investment, a statement, an essential part of your lifestyle. That's why paint protection for your vehicle is not only a need; it's a must-have, particularly for those residing in Powder Springs, GA.
       With our high-quality ceramic coating services, we offer robust protection against harsh weather conditions, road debris, and everyday wear and tear.</>),
-   desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
-   desc_3: (<>Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.</>),
-   desc_4: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</>),
+   desc_2: (<>
+      Our vehicle paint protection coatings, sourced from trusted suppliers like Xpel and KochChemie, ensure that your vehicle's paintwork retains its luster and vibrancy for years. Let our team of experienced professionals safeguard your investment and keep your vehicle looking immaculate. Trust RanaMotorWorks. We're not just about cars. We're about delivering exceptional customer experience through expertise and passion.</>),
+   desc_3: (<>Let our team of experienced professionals safeguard your investment and keep your vehicle looking immaculate. Trust RanaMotorWorks. We're not just about cars. We're about delivering exceptional customer experience through expertise and passion.</>),
+   desc_4: (<>A ceramic coating shields your vehicle's paint, repelling water and reducing water spots and oxide deposits, while its hardness prevents scratches and enhances aesthetic appeal. It safeguards your car against the elements, maintaining its look and value. At RanaMotorWorks, ceramic coating is essential vehicle maintenance. Don't wait - give your vehicle the protection it deserves today. Call +1 (404) 882-8523 to schedule an appointment or fill out our online form for a quote.</>),
    service_features: [
       {
          icon: seviceDetailsIcon_1,
