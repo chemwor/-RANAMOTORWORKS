@@ -7,7 +7,7 @@ export const metadata = {
 const index = () => {
    return (
       <Wrapper>
-         <ServiceDetails />
+         <ServiceDetails/>
       </Wrapper>
    )
 }

@@ -27,31 +27,31 @@ interface ContentType {
 
 const content_data: ContentType = {
    title_1: "Benefits of Ceramic Coating",
-   title_2: "Quick Processing.",
+   title_2: "The Science Behind The Scenes",
    title_3: "Benefit you will get.",
    desc_1: (<>Ceramic coatings represent a revolutionary leap forward in automotive protection, and at the forefront of this innovation is the XPEL Fusion Plus Ceramic Coating. Unlike traditional waxes and sealants, their molecular structure creates a hydrophobic surface, repelling contaminants and offering a durable, glossy finish. XPEL Fusion Plus sets the standard for this advanced technology, providing superior protection and a pristine aesthetic, surpassing conventional options</>),
    desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
-   desc_3: (<>Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.</>),
-   desc_4: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</>),
+   desc_3: (<>The science behind ceramic coatings lies in the advanced chemical composition of these liquid polymer solutions. Typically, ceramic coatings are based on silicon dioxide (SiO2) or titanium dioxide (TiO2) nanoparticles suspended in a solvent. When applied to a vehicle's paint surface, the solvent evaporates, leaving behind a protective layer of these nanoparticles.</>),
+   desc_4: (<>Experience the ultimate in automotive care with our ceramic coating service</>),
    service_features: [
       {
          icon: seviceDetailsIcon_1,
-         title: "Property Insurance",
-         desc: "Elit esse cillum dol fu nulla tur nos ullamo."
+         title: "Stage 1: Decontamination Wash",
+         desc: "The ceramic coating process involves three meticulous stages for optimal clarity and durability. Chemical decontamination, the initial step, starts with an eight-step wash, aiming to create a pristine surface for coating."
       },
       {
          icon: seviceDetailsIcon_2,
-         title: "Easy Payments",
-         desc: "quis nostr exerct ull security finibus ne derived."
+         title: "Stage 2: Paint Enhancement",
+         desc: "In the second stage, paint enhancement focuses on perfecting the paint's appearance through surface correction, including polishing to address swirls and scratches, followed by meticulous surface preparation to eliminate residues, and a final inspection before ceramic coating application."
       },
       {
          icon: seviceDetailsIcon_3,
-         title: "Quick Process",
-         desc: "Duis aute irure do reprehe Cicero voluptat velit."
+         title: "Stage 3: Ceramic Coating",
+         desc: "In the third stage, the ceramic coating is applied in small sections, carefully buffed or wiped for an even layer, followed by the curing process where the vehicle must remain dry and uncontaminated. A final inspection confirms uniform application, providing long-lasting protection and an enhanced glossy finish."
       },
    ],
-   service_list: ["Loan & low Interest facility", "100k+ Property Listing added & updated", "Exert Agents for any help", "Priority Access of exclusive sale",],
-   sidebar_list: ["Property & Loan", "Sell Home", "Consulting Service", "Rent Home", "Mortgage",],
+   service_list: ["Long-lasting Protection", "Enhanced Aesthetic Appeal", "Easy Maintenance", "Chemical Resistance","UV Protection",],
+   sidebar_list: ["Maintenance Wash", "Paint Protection", "Auto Detailing",],
 }
 
 const { title_1, title_2, title_3, desc_1, desc_2, desc_3, desc_4, service_features, service_list, sidebar_list } = content_data;
