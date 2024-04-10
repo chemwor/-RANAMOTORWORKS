@@ -27,7 +27,7 @@ interface ContentType {
 
 const content_data: ContentType = {
    title_1: "Maintenance Wash Services",
-   title_2: "Quick Processing.",
+   title_2: "Our Wash Services",
    title_3: "Benefit you will get.",
    desc_1: (<>Introducing our Maintenance Wash service – the ultimate solution for both ceramic-coated and non-ceramic-coated cars. Our quick and efficient exterior wash is designed to enhance your vehicle's appearance and protect it from the elements. We offer added protection sealants and collaborate with top-tier chemical companies like Koch-Chemi to ensure your car receives the best care possible. Elevate your ride with our premium maintenance wash today!</>),
    desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
@@ -36,22 +36,23 @@ const content_data: ContentType = {
    service_features: [
       {
          icon: seviceDetailsIcon_1,
-         title: "Property Insurance",
-         desc: "Elit esse cillum dol fu nulla tur nos ullamo."
+         title: "Stage 1: Maintenance Wash",
+         desc: "Our Maintenance Wash includes an exterior pre-foam, contact wash, wheel and tire cleaning, wheel well cleaning, door jamb cleaning, non-sling tire shine, and foam wax, starting at $100 for sedans and $150 for SUVs/trucks, with a 25% upcharge for larger vehicles."
       },
       {
          icon: seviceDetailsIcon_2,
-         title: "Easy Payments",
-         desc: "quis nostr exerct ull security finibus ne derived."
+         title: "Stage 2: Advanced Wash",
+         desc: "Our Advanced Wash includes everything in Stage One, plus ceramic sealant, plastic trim protection, basic interior vacuuming (excluding pet hair removal), inside window cleaning, and RMW Signature Interior Scent, starting at $150 for sedans and $200 for SUVs/trucks, with a 25% upcharge for larger vehicles. Optional add-ons include $75 for rubber mat cleaning and protection, $100 for carpet mat blowout, and $300 for full interior cleaning and protection."
       },
       {
          icon: seviceDetailsIcon_3,
-         title: "Quick Process",
-         desc: "Duis aute irure do reprehe Cicero voluptat velit."
+         title: "Stage 3: Ceramic Coating Wash",
+         desc: "Our Ceramic Coating Maintenance Wash includes an exterior pre-foam, contact wash, wheel and tire cleaning, wheel well cleaning, door jamb cleaning, non-sling tire shine, basic interior vacuuming (excluding pet hair removal), inside window cleaning, ceramic coating topper, and RMW Signature Interior Scent, offered at a flat rate of $150 for all vehicle sizes."
       },
+
    ],
    service_list: ["Loan & low Interest facility", "100k+ Property Listing added & updated", "Exert Agents for any help", "Priority Access of exclusive sale",],
-   sidebar_list: ["Property & Loan", "Sell Home", "Consulting Service", "Rent Home", "Mortgage",],
+   sidebar_list: ["Maintenance Wash", "Paint Protection", "Auto Detailing",],
 }
 
 const { title_1, title_2, title_3, desc_1, desc_2, desc_3, desc_4, service_features, service_list, sidebar_list } = content_data;
@@ -78,7 +79,7 @@ const ServiceDetailsArea = () => {
                         </div>
                      </div>
                      <h4 className="mb-30">{title_2}</h4>
-                     <p className="fs-24">{desc_3}</p>
+                     {/*<p className="fs-24">{desc_3}</p>*/}
 
                      <div className="feature-wrapper mt-60 lg-mt-40 mb-65 lg-mb-40">
                         <div className="bg-wrapper">
@@ -96,11 +97,11 @@ const ServiceDetailsArea = () => {
                         </div>
                      </div>
 
-                     <h4 className="mb-30">{title_3}</h4>
-                     <p className="fs-20 lh-lg pb-25">{desc_4}</p>
-                     <ul className="list-style-one fs-22 color-dark style-none">
-                        {service_list.map((list, i) => <li key={i}>{list}</li>)}
-                     </ul>
+                     {/*<h4 className="mb-30">{title_3}</h4>*/}
+                     {/*<p className="fs-20 lh-lg pb-25">{desc_4}</p>*/}
+                     {/*<ul className="list-style-one fs-22 color-dark style-none">*/}
+                     {/*   {service_list.map((list, i) => <li key={i}>{list}</li>)}*/}
+                     {/*</ul>*/}
                      <Link href="/contact" className="btn-two mt-30">Book Now</Link>
                   </div>
                </div>

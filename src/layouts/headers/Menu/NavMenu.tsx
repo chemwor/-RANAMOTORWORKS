@@ -80,6 +80,15 @@ const NavMenu = () => {
                     )}
                 </li>
             ))}
+            <li className="nav-item">
+                <Link className="nav-link" href="/get_quote">Get Quote</Link>
+            </li>
+            <li className="nav-item">
+                <Link className="nav-link" href="/contact">Book Appointment</Link>
+            </li>
+            <li className="nav-item">
+                <Link className="nav-link" href="/faq">FAQ</Link>
+            </li>
         </ul>
     );
 };
