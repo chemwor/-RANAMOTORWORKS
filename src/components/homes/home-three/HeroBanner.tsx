@@ -29,7 +29,7 @@ const HeroBanner = () => {
          <div className="container position-relative z-2">
             <div className="row">
                <div className="col-lg-10 m-auto">
-                  <h1 className="hero-heading text-center text-white font-garamond fw-500 wow fadeInUp"><span><Image src={titleShape} alt="" className="lazy-img" /> Paint Protection Services</span> <br /></h1>
+                  <h1 className="hero-heading text-center text-white font-garamond fw-500 wow fadeInUp"><span> Paint Protection Services</span> <br /></h1>
                   <p className="fs-24 text-white text-center pt-35 md-pt-20 pb-55 lg-pb-40 wow fadeInUp" data-wow-delay="0.1s">RMW is Your Ultimate XPEL™ Destination for Ceramic Coating
                       and aftercare services.</p>
                </div>
@@ -44,8 +44,8 @@ const HeroBanner = () => {
                </div>
             </div>
          </div>
-         <Image src={bannerShape_1} alt="" className="lazy-img shapes shape_01" />
-         <Image src={bannerShape_2} alt="" className="lazy-img shapes shape_02" />
+         {/*<Image src={bannerShape_1} alt="" className="lazy-img shapes shape_01" />*/}
+         {/*<Image src={bannerShape_2} alt="" className="lazy-img shapes shape_02" />*/}
       </div>
    )
 }

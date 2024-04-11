@@ -4,10 +4,10 @@ import Count from "@/components/common/Count"
 import CardStyleTwo from "@/components/common/CardStyleTwo"
 
 import featureimg_1 from "@/assets/images/shape/shape_37.svg"
-import featureimg_2 from "@/assets/images/media/img_29.jpg"
+import featureimg_2 from "@/assets/images/media/shadowcar.jpg"
 import featureimg_3 from "@/assets/images/assets/screen_03.jpg"
 import featureimg_4 from "@/assets/images/shape/shape_40.svg"
-import featureimg_5 from "@/assets/images/media/img_30.jpg"
+import featureimg_5 from "@/assets/images/media/fr50.jpg"
 import featureimg_6 from "@/assets/images/assets/screen_04.png"
 
 const BLockFeatureTwo = () => {
@@ -19,21 +19,21 @@ const BLockFeatureTwo = () => {
                   <div className="col-xl-7 col-lg-6">
                      <div className="pe-xl-5 me-xxl-3 wow fadeInLeft">
                         <div className="title-one pe-xl-5">
-                           <h2 className="font-garamond">Excellence Through <em></em> Innovation <span className="star-shape"><Image src={featureimg_1} alt="" className="lazy-img" /></span></h2>
+                           <h2 className="font-garamond">Excellence Through <em></em> Innovation <span className="star-shape"></span></h2>
                         </div>
 
                         <div className="row gx-xl-4 align-items-end">
                            <div className="col-7">
                               <div className="media-block position-relative z-1">
                                  <Image src={featureimg_2} alt="" className="lazy-img main-img w-100" />
-                                 <Image src={featureimg_3} alt="" className="lazy-img shapes screen_01" />
-                                 <Image src={featureimg_4} alt="" className="lazy-img shapes shape_01" />
+                                 {/*<Image src={featureimg_3} alt="" className="lazy-img shapes screen_01" />*/}
+                                 {/*<Image src={featureimg_4} alt="" className="lazy-img shapes shape_01" />*/}
                               </div>
                            </div>
                            <div className="col-5">
                               <div className="media-block position-relative z-1">
                                  <Image src={featureimg_5} alt="" className="lazy-img main-img w-100" />
-                                 <Image src={featureimg_6} alt="" className="lazy-img shapes screen_02" />
+                                 {/*<Image src={featureimg_6} alt="" className="lazy-img shapes screen_02" />*/}
                               </div>
                            </div>
                         </div>
