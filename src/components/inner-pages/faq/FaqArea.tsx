@@ -12,12 +12,10 @@ const FaqArea = () => {
                   <div className="faq-sidebar">
                      <div className="bg-wrapper">
                         <ul className="style-none">
-                           <li><Link href="#Selling">1. <span>Selling</span></Link></li>
-                           <li><Link href="#Renting">2. <span>Renting</span></Link></li>
-                           <li><Link href="#Buying">3. <span>Buying</span></Link></li>
-                           <li><Link href="#Payments">4. <span>Payments</span></Link></li>
-                           <li><Link href="#Terms">5. <span>Terms & Conditions</span></Link></li>
-                           <li><Link href="#Account">6. <span>Account</span></Link></li>
+                           <li><Link href="#Selling">1. <span>Ceramic Coating</span></Link></li>
+                           <li><Link href="#Renting">2. <span>Maintenance Cost</span></Link></li>
+                           <li><Link href="#Buying">3. <span>Paint Protection</span></Link></li>
+                           <li><Link href="#Payments">4. <span>Auto Detailing</span></Link></li>
                         </ul>
                      </div>
                      <div className="bg-wrapper text-center mt-35">

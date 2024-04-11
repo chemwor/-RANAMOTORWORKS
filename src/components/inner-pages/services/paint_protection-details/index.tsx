@@ -8,7 +8,7 @@ const PaintProtectionServiceDetails = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Buy Home" style={true} />
+         <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Paint Protection" style={true} />
          <ServiceDetailsArea />
          <FancyBanner />
          <FooterFour />
