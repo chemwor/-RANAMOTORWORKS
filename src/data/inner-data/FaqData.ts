@@ -13,8 +13,8 @@ interface DataType {
 const inner_faq_data:DataType[] = [
    {
       id: 1,
-      id_name: "Selling",
-      title: "SELLING",
+      id_name: "Ceramic Coating",
+      title: "Ceramic Coating",
       md_pt:true,
       faq: [
          {

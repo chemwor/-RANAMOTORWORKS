@@ -15,20 +15,19 @@ interface DataType {
 const address_data: DataType[] = [
    {
       id: 1,
-      title: "We’r always happy to help.",
-      address_1: "ask@homy.com"
+      title: "Email Us",
+      address_1: "info@rmwna.com"
    },
    {
       id: 2,
       class_name: "skew-line",
-      title: "Our hotline number",
-      address_1: "+757 699 4478,",
-      address_2: "+991 377 9731",
+      title: "Call Us",
+      address_1: "+1 404 337-6017",
    },
    {
       id: 3,
-      title: "Live chat",
-      address_1: "www.homylivechat.com"
+      title: "Visit Us",
+      address_1: "3180 Florence Rd bldg 100 suite 103"
    },
 ]
 
@@ -39,7 +38,7 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-xxl-9 col-xl-8 col-lg-10 m-auto">
                   <div className="title-one text-center wow fadeInUp">
-                     <h3>Questions? Feel Free to Reach Out Via Message.</h3>
+                     <h3>Questions? Feel Free to Reach Out </h3>
                   </div>
                </div>
             </div>
@@ -75,7 +74,7 @@ const ContactArea = () => {
                <div className="col-xl-5 col-lg-6 d-flex order-lg-first">
                   <div className="contact-map-banner w-100">
                      <div className="gmap_canvas h-100 w-100">
-                        <iframe className="gmap_iframe h-100 w-100" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dhaka collage&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <iframe className="gmap_iframe h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13249.512849064577!2d-84.705512!3d33.879912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f53bc7190ddda1%3A0x133343c78c3f430f!2sRanaMotorWorks%20LLC!5e0!3m2!1sen!2sus!4v1712798592392!5m2!1sen!2sus"></iframe>
                      </div>
                   </div>
                </div>

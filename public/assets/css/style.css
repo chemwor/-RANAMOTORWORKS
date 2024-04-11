@@ -7576,7 +7576,7 @@ iframe {
   transition: all 0.3s ease-in-out 0s;
 }
 .service-details .service-sidebar .service-category ul a:hover:after, .service-details .service-sidebar .service-category ul a.active:after {
-  background: #FFC8B1;
+  background: rgba(138, 24, 26, 0.83);
   transform: rotate(180deg);
 }
 .service-details .service-sidebar .service-category ul a.active {

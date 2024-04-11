@@ -64,7 +64,7 @@ const ServiceDetailsArea = () => {
             <div className="row">
                <div className="col-lg-8">
                   <div className="service-post">
-                     <div className="btn-line fw-500 text-uppercase">BUY PROPERTY</div>
+                     <div className="btn-line fw-500 text-uppercase">Maintenance Wash</div>
                      <h3 className="mb-30">{title_1}</h3>
                      <p className="fs-20 lh-lg pb-25">{desc_1}</p>
                      <p className="fs-20 lh-lg">{desc_2}</p>
@@ -111,8 +111,10 @@ const ServiceDetailsArea = () => {
                      <div className="service-sidebar md-mt-80">
                         <div className="service-category">
                            <ul className="style-none">
-                              <li><Link href="#" className="active">Buy Home</Link></li>
-                              {sidebar_list.map((list, i) => <li key={i}><Link href="#">{list}</Link></li>)}
+                              <li><Link href="/ceramic_coating" >Ceramic Coating</Link></li>
+                              <li><Link href="/maintenance_wash" className="active">Maintenance Wash</Link></li>
+                              <li><Link href="/paint_protection" >Paint Protection</Link></li>
+                              <li><Link href="/auto_detailing" >Auto Detailing</Link></li>
                            </ul>
                         </div>
                         <div className="contact-banner text-center mt-45">

@@ -13,7 +13,7 @@
 <path d="M476.319 301.197L312.093 302.204L311.109 469.38H478.309L476.319 301.197Z" fill="#FFF8F4"/>
 <path d="M494.044 302.18H296.355L393.725 247.594L494.044 302.18Z" stroke="#FFF8F4" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M491.855 302.095H300.355L395.855 249.595L491.855 302.095Z" stroke="#282828" stroke-width="1.2" stroke-linecap="round"/>
-<circle cx="394.707" cy="280.051" r="13.1694" fill="#FFC8B1" stroke="black" stroke-width="1.2"/>
+<circle cx="394.707" cy="280.051" r="13.1694" fill="#8a181a85" stroke="black" stroke-width="1.2"/>
 <rect x="326.461" y="314.091" width="58.7952" height="38.1411" stroke="black" stroke-width="1.2"/>
 <rect x="404.159" y="314.091" width="58.7952" height="38.1411" stroke="black" stroke-width="1.2"/>
 <path d="M314.059 301.688L314.059 468.888" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
@@ -24,7 +24,7 @@
 <path d="M1379.71 338.079H1163.83V469.38H1387.58V459.053H1379.71V338.079Z" fill="#FFF8F4"/>
 <path d="M1153.01 349.39H1163.97V338.049H1379.29V349.39H1392.99V340.412L1349.71 264.806H1195.2L1153.01 340.412V349.39Z" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M1167.73 460.036H1379.22V338.079H1163.83V427.58" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
-<path d="M1216.94 312.488V352.34H1260.21V312.488L1239.08 291.361L1216.94 312.488Z" fill="#FFC8B1" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M1216.94 312.488V352.34H1260.21V312.488L1239.08 291.361L1216.94 312.488Z" fill="#8a181a85" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M1238.75 292.993V352.136M1258.62 312.865H1217.93" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M1103.25 332.542C1119.92 340.613 1115.88 355.891 1111.78 362.52C1123.13 368.758 1123.1 390.49 1114.87 399.612C1107.48 407.809 1089.03 415.86 1075.56 402.282C1070.13 409.395 1057.47 411.297 1049.63 405.498C1041.78 399.698 1037.28 380.065 1055.5 373.526C1042.26 364.283 1042.57 348.123 1043.47 343.109C1044.37 338.096 1049.16 318.599 1074.93 323.463C1069.11 300.794 1087.24 292.399 1099.71 297.957C1112.18 303.515 1116.04 321.94 1103.25 332.542Z" fill="#FFF8F4" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
 <path d="M1085.29 344.033C1079.24 365.252 1069.03 419.387 1076.58 466.181" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
@@ -39,7 +39,7 @@
 <path d="M1669 343L1669 257" stroke="black"/>
 <path d="M256.523 211.695H103.584V470.363H148.826V381.845H208.821V470.363H256.523V211.695Z" stroke="black" stroke-width="1.2" stroke-linecap="round"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M90.7559 203.692H269.461V211.652H90.7559L90.7559 203.692Z" fill="#FFF8F4" stroke="#1C1C1C" stroke-width="1.2"/>
-<path d="M156.916 181.322C156.916 169.098 166.826 159.188 179.051 159.188C191.276 159.188 201.186 169.098 201.186 181.322V184.543H156.916V181.322Z" fill="#FFC8B1" stroke="black" stroke-width="1.2"/>
+<path d="M156.916 181.322C156.916 169.098 166.826 159.188 179.051 159.188C191.276 159.188 201.186 169.098 201.186 181.322V184.543H156.916V181.322Z" fill="#8a181a85" stroke="black" stroke-width="1.2"/>
 <rect x="193.684" y="226.545" width="43.2394" height="39.1246" fill="#FFF8F4" stroke="black" stroke-width="1.2"/>
 <rect x="193.684" y="284.093" width="43.2394" height="39.1246" fill="#FFF8F4" stroke="black" stroke-width="1.2"/>
 <rect x="125.821" y="226.065" width="43.2394" height="39.1246" fill="#FFF8F4" stroke="black" stroke-width="1.2"/>

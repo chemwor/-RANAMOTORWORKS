@@ -8,7 +8,7 @@ const AutoDetailingServiceDetails = () => {
    return (
       <>
          <HeaderOne style={true} />
-         <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Buy Home" style={true} />
+         <BreadcrumbOne title="Service Details" link="#" link_title="Service" sub_title="Auto Detailing" style={true} />
          <ServiceDetailsArea />
          <FancyBanner />
          <FooterFour />
