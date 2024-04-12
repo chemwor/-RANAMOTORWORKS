@@ -12,7 +12,7 @@ const BLockFeatureFive = ({ style }: any) => {
             <div className="row">
                <div className="col-xl-8 m-auto">
                   <div className="title-one text-center mb-35 lg-mb-20">
-                     <h3>Your Vehicle's Best Companion: Our Comprehensive Services</h3>
+                     <h3>Your Vehicle&apos;s Best Companion: Our Comprehensive Services</h3>
                      {/*<p className="fs-24 color-dark">It’s easy to start with us with these simple steps</p>*/}
                   </div>
                </div>

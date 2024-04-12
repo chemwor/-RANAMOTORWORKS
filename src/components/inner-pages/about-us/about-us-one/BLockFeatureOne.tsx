@@ -15,11 +15,11 @@ interface ContentType {
 
 const feature_content: ContentType = {
    sub_title: "About us",
-   desc_1: (<>Elevate your vehicle's allure - book now to experience our range of exceptional services!</>),
+   desc_1: (<>Elevate your vehicle&apos;s allure - book now to experience our range of exceptional services!</>),
    title_1: "Who we are?",
    title_2: "Our Mission",
-   desc_2: (<>We understand your car is more than just transportation; it embodies your hard work and pride. That's why at RananMotorWorks, we elevate your driving experience through expert paint protection, delivering an experience that speaks to the essence of your automotive journey where passion meets protection.</>),
-   desc_3: (<>At RanaMotorWorks, we're dedicated to redefining automotive paint protection with passion, uncompromising excellence, and top-tier customer satisfaction. Our goal is to set a new industry standard, prioritizing deep bonds with customers and delivering unmatched quality and craftsmanship.</>),
+   desc_2: (<>We understand your car is more than just transportation; it embodies your hard work and pride. That&apos;s why at RananMotorWorks, we elevate your driving experience through expert paint protection, delivering an experience that speaks to the essence of your automotive journey where passion meets protection.</>),
+   desc_3: (<>At RanaMotorWorks, we&apos;re dedicated to redefining automotive paint protection with passion, uncompromising excellence, and top-tier customer satisfaction. Our goal is to set a new industry standard, prioritizing deep bonds with customers and delivering unmatched quality and craftsmanship.</>),
 }
 
 const { sub_title, desc_1, title_1, title_2, desc_2, desc_3 } = feature_content;

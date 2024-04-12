@@ -71,7 +71,6 @@ const ContactForm = () => {
          {/*      <button type='submit' className="btn-nine text-uppercase rounded-3 fw-normal w-100">Send Message</button>*/}
          {/*   </div>*/}
          {/*</div>*/}
-          <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_EVENT?hide_gdpr_banner=1" ></div><script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
       </form>
    )
 }

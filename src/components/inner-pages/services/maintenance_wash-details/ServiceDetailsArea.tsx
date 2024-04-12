@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 import seviceDetailsThumb_1 from "@/assets/images/media/twins.jpg";
-import seviceDetailsThumb_2 from "@/assets/images/media/lexus.JPG";
+import seviceDetailsThumb_2 from "@/assets/images/media/lexus.jpg";
 
 import seviceDetailsIcon_1 from "@/assets/images/icon/car.png";
 import seviceDetailsIcon_2 from "@/assets/images/icon/spray.png";
@@ -29,7 +29,7 @@ const content_data: ContentType = {
    title_1: "Maintenance Wash Services",
    title_2: "Our Wash Services",
    title_3: "Benefit you will get.",
-   desc_1: (<>Introducing our Maintenance Wash service – the ultimate solution for both ceramic-coated and non-ceramic-coated cars. Our quick and efficient exterior wash is designed to enhance your vehicle's appearance and protect it from the elements. We offer added protection sealants and collaborate with top-tier chemical companies like Koch-Chemi to ensure your car receives the best care possible. Elevate your ride with our premium maintenance wash today!</>),
+   desc_1: (<>Introducing our Maintenance Wash service – the ultimate solution for both ceramic-coated and non-ceramic-coated cars. Our quick and efficient exterior wash is designed to enhance your vehicle&apos;s appearance and protect it from the elements. We offer added protection sealants and collaborate with top-tier chemical companies like Koch-Chemi to ensure your car receives the best care possible. Elevate your ride with our premium maintenance wash today!</>),
    desc_2: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects. We work collaboratively with organizations to identify & leverage the potential within their risk and compliance functions, enabling them to thrive in ever-changing business landscape.</>),
    desc_3: (<>Your leading real estate advocate, transforming houses into dreams. Trust us to expertly guide you home.</>),
    desc_4: (<>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</>),
