@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 
-import featureIcon_1 from "@/assets/images/icon/icon_01.svg";
-import featureIcon_2 from "@/assets/images/icon/icon_02.svg";
-import featureIcon_3 from "@/assets/images/icon/icon_03.svg";
+import featureIcon_1 from "@/assets/images/icon/safety.png";
+import featureIcon_2 from "@/assets/images/icon/car-wash.png";
+import featureIcon_3 from "@/assets/images/icon/car-painting.png";
 
-import feature3Icon_1 from "@/assets/images/icon/icon_07.svg";
-import feature3Icon_2 from "@/assets/images/icon/icon_08.svg";
-import feature3Icon_3 from "@/assets/images/icon/icon_09.svg";
+import feature3Icon_1 from "@/assets/images/icon/car.png";
+import feature3Icon_2 from "@/assets/images/icon/car-painting.png";
+import feature3Icon_3 from "@/assets/images/icon/towels.png";
 import feature3Icon_4 from "@/assets/images/icon/icon_26.svg";
 import feature3Icon_5 from "@/assets/images/icon/icon_27.svg";
 import feature3Icon_6 from "@/assets/images/icon/icon_28.svg";

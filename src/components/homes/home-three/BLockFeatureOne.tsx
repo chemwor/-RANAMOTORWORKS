@@ -13,14 +13,14 @@ const BLockFeatureOne = () => {
             <div className="position-relative">
                <div className="text-center mb-30 wow fadeInUp">
                   <div className="title-one mb-30 lg-mb-20">
-                     <h2 className="font-garamond star-shape">Unrivaled Services Tailored to Your Needs<span className="star-shape"><Image src={titleShape} alt="" className="lazy-img" /></span></h2>
-                     <p className="fs-24 mt-xs">“Outstanding service, bought my dream home quickly!”</p>
+                     <h2 className="font-garamond star-shape">Exceptional Attention to Detail: A Review of RanaMotorWorks<span className="star-shape"></span></h2>
+                     <p className="fs-24 mt-xs">“I was totally impressed with RanaMotorWorks and the attention to detail.”</p>
                   </div>
                   <ul className="rating style-none d-flex justify-content-center">
                      {icon.map((icon, i) => (
                         <li key={i}><i className={icon}></i></li>
                      ))}
-                     <li><span className="color-dark fw-500">4.7</span> (18k Reviews)</li>
+                     <li><span className="color-dark fw-500">5.0</span> (20 Reviews)</li>
                   </ul>
                </div>
 

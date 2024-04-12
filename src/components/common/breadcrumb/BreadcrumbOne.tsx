@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import breadcrumbImg from "@/assets/images/assets/ils_07.svg"
+import breadcrumbImg from "@/assets/images/assets/porsche-model.png"
 
 const BreadcrumbOne = ({ title, sub_title, style, link, link_title }: any) => {
    return (
@@ -18,7 +18,8 @@ const BreadcrumbOne = ({ title, sub_title, style, link, link_title }: any) => {
                <li>{sub_title}</li>
             </ul>
          </div>
-         <Image src={breadcrumbImg} alt="" className="lazy-img shapes w-100 illustration" />
+          <h1>&nbsp;</h1>
+          <Image src={breadcrumbImg} alt="" className="lazy-img  w-100 " />
       </div>
    )
 }

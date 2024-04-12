@@ -1,12 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
-import seviceDetailsThumb_1 from "@/assets/images/media/img_57.jpg";
-import seviceDetailsThumb_2 from "@/assets/images/media/img_58.jpg";
+import seviceDetailsThumb_1 from "@/assets/images/media/twins.jpg";
+import seviceDetailsThumb_2 from "@/assets/images/media/lexus.JPG";
 
-import seviceDetailsIcon_1 from "@/assets/images/icon/icon_72.svg";
-import seviceDetailsIcon_2 from "@/assets/images/icon/icon_73.svg";
-import seviceDetailsIcon_3 from "@/assets/images/icon/icon_74.svg";
+import seviceDetailsIcon_1 from "@/assets/images/icon/car.png";
+import seviceDetailsIcon_2 from "@/assets/images/icon/spray.png";
+import seviceDetailsIcon_3 from "@/assets/images/icon/towels.png";
 
 interface ContentType {
    title_1: string;
@@ -87,7 +87,7 @@ const ServiceDetailsArea = () => {
                               {service_features.map((item, index) => (
                                  <div key={index} className="col-xl-4 col-lg-6 col-md-4">
                                     <div className="card-style-eleven mt-30">
-                                       <div className="icon"><Image src={item.icon} alt="" className="lazy-img" /></div>
+                                       <div style={{width: "50%"}}><Image src={item.icon} alt="" className="lazy-img" /></div>
                                        <h5 className="mt-30 mb-20">{item.title}</h5>
                                        <p>{item.desc}</p>
                                     </div>

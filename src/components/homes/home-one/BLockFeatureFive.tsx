@@ -12,8 +12,8 @@ const BLockFeatureFive = ({ style }: any) => {
             <div className="row">
                <div className="col-xl-8 m-auto">
                   <div className="title-one text-center mb-35 lg-mb-20">
-                     <h3>We’r here to help <br /> you get your <span>dream home<Image src={titleShape} alt="" className="lazy-img" /></span></h3>
-                     <p className="fs-24 color-dark">It’s easy to start with us with these simple steps</p>
+                     <h3>Your Vehicle's Best Companion: Our Comprehensive Services</h3>
+                     {/*<p className="fs-24 color-dark">It’s easy to start with us with these simple steps</p>*/}
                   </div>
                </div>
             </div>
@@ -23,8 +23,8 @@ const BLockFeatureFive = ({ style }: any) => {
                   <div className="row gx-xl-5 justify-content-center">
                      {feature_data.filter((items) => items.page === "home_1_feature_3").map((item) => (
                         <div key={item.id} className="col-lg-4 col-sm-6">
-                           <div className={`card-style-one text-center wow fadeInUp mt-40 ${item.class_name}`}>
-                              <Image src={item.icon ? item.icon : ""} alt="" className="lazy-img m-auto icon" />
+                           <div className={`card-style-one text-center `}>
+                              <div style={{width: "75%"}}><Image src={item.icon ? item.icon : ""} alt=""  /></div>
                               <h5 className="mt-50 lg-mt-30 mb-15">{item.title}</h5>
                               <p className="pe-xxl-4 ps-xxl-4">{item.desc}</p>
                            </div>
@@ -34,8 +34,8 @@ const BLockFeatureFive = ({ style }: any) => {
                </div>
             </div>
          </div>
-         <Image src={featureShape_1} alt="" className="lazy-img shapes shape_01" />
-         <Image src={featureShape_2} alt="" className="lazy-img shapes shape_02" />
+         {/*<Image src={featureShape_1} alt="" className="lazy-img shapes shape_01" />*/}
+         {/*<Image src={featureShape_2} alt="" className="lazy-img shapes shape_02" />*/}
       </div>
    )
 }

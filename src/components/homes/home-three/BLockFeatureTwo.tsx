@@ -48,14 +48,14 @@ const BLockFeatureTwo = () => {
                               <div className="row">
                                  <div className="col-6">
                                     <div className="counter-block-one mt-20">
-                                       <div className="main-count fw-500 color-dark">$<span className="counter"><Count number={7} /></span>bil+</div>
-                                       <span>Project Handover</span>
+                                       <div className="main-count fw-500 color-dark"><span className="counter"><Count number={150} /></span>+</div>
+                                       <span>Customers</span>
                                     </div>
                                  </div>
                                  <div className="col-6">
                                     <div className="counter-block-one mt-20">
-                                       <div className="main-count fw-500 color-dark"><span className="counter"><Count number={1.9} /></span>mil+</div>
-                                       <span>Happy Customers</span>
+                                       <div className="main-count fw-500 color-dark"><span className="counter"><Count number={20} /></span></div>
+                                       <span>Five Star Reviews</span>
                                     </div>
                                  </div>
                               </div>
@@ -73,7 +73,7 @@ const BLockFeatureTwo = () => {
                   </div>
                </div>
 
-               <CardStyleTwo />
+               {/*<CardStyleTwo />*/}
             </div>
          </div>
       </div>

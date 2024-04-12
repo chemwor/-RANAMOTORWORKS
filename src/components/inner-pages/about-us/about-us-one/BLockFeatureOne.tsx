@@ -33,7 +33,7 @@ const BLockFeatureOne = () => {
                   <div className="me-xxl-4">
                      <div className="title-one mb-60 lg-mb-40">
                         <div className="upper-title">{sub_title}</div>
-                        <h3>Protect Your <span>Investment<Image src={titleShape} alt="" className="lazy-img" /></span></h3>
+                        <h3>Protect Your <span>Investment</span></h3>
                         <p className="fs-22">{desc_1}</p>
                      </div>
                      <Link href="/contact" className="btn-two">Book Now</Link>
@@ -41,14 +41,14 @@ const BLockFeatureOne = () => {
                         <div className="row">
                            <div className="col-xxl-6 col-sm-5">
                               <div className="counter-block-one mt-20">
-                                 <div className="main-count fw-500 color-dark"><span className="counter"><Count number={1.2} /></span>%</div>
-                                 <span>Low interest rate</span>
+                                 <div className="main-count fw-500 color-dark"><span className="counter"><Count number={150} /></span>+</div>
+                                 <span>Customers</span>
                               </div>
                            </div>
                            <div className="col-xxl-6 col-sm-7">
                               <div className="counter-block-one mt-20">
-                                 <div className="main-count fw-500 color-dark">$<span className="counter"><Count number={1.3} /></span>b+</div>
-                                 <span>Cumulative trading volume</span>
+                                 <div className="main-count fw-500 color-dark"><span className="counter"><Count number={20} /></span></div>
+                                 <span>Five Star Reviews</span>
                               </div>
                            </div>
                         </div>

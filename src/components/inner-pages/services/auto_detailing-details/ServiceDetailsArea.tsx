@@ -1,8 +1,8 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
-import seviceDetailsThumb_1 from "@/assets/images/media/img_57.jpg";
-import seviceDetailsThumb_2 from "@/assets/images/media/img_58.jpg";
+import seviceDetailsThumb_1 from "@/assets/images/media/g80.jpg";
+import seviceDetailsThumb_2 from "@/assets/images/media/wheel.jpg";
 
 import seviceDetailsIcon_1 from "@/assets/images/icon/icon_72.svg";
 import seviceDetailsIcon_2 from "@/assets/images/icon/icon_73.svg";
@@ -84,27 +84,27 @@ const ServiceDetailsArea = () => {
                      <h4 className="mb-30">{title_2}</h4>
                      <p className="fs-24">{desc_3}</p>
 
-                     <div className="feature-wrapper mt-60 lg-mt-40 mb-65 lg-mb-40">
-                        <div className="bg-wrapper">
-                           <div className="row">
-                              {service_features.map((item, index) => (
-                                 <div key={index} className="col-xl-4 col-lg-6 col-md-4">
-                                    <div className="card-style-eleven mt-30">
-                                       <div className="icon"><Image src={item.icon} alt="" className="lazy-img" /></div>
-                                       <h5 className="mt-30 mb-20">{item.title}</h5>
-                                       <p>{item.desc}</p>
-                                    </div>
-                                 </div>
-                              ))}
-                           </div>
-                        </div>
-                     </div>
+                     {/*<div className="feature-wrapper mt-60 lg-mt-40 mb-65 lg-mb-40">*/}
+                     {/*   <div className="bg-wrapper">*/}
+                     {/*      <div className="row">*/}
+                     {/*         {service_features.map((item, index) => (*/}
+                     {/*            <div key={index} className="col-xl-4 col-lg-6 col-md-4">*/}
+                     {/*               <div className="card-style-eleven mt-30">*/}
+                     {/*                  <div className="icon"><Image src={item.icon} alt="" className="lazy-img" /></div>*/}
+                     {/*                  <h5 className="mt-30 mb-20">{item.title}</h5>*/}
+                     {/*                  <p>{item.desc}</p>*/}
+                     {/*               </div>*/}
+                     {/*            </div>*/}
+                     {/*         ))}*/}
+                     {/*      </div>*/}
+                     {/*   </div>*/}
+                     {/*</div>*/}
 
                      <h4 className="mb-30">{title_3}</h4>
                      <p className="fs-20 lh-lg pb-25">{desc_4}</p>
-                     <ul className="list-style-one fs-22 color-dark style-none">
-                        {service_list.map((list, i) => <li key={i}>{list}</li>)}
-                     </ul>
+                     {/*<ul className="list-style-one fs-22 color-dark style-none">*/}
+                     {/*   {service_list.map((list, i) => <li key={i}>{list}</li>)}*/}
+                     {/*</ul>*/}
                      <Link href="/contact" className="btn-two mt-30">Book Now</Link>
                   </div>
                </div>
