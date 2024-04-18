@@ -14,7 +14,7 @@ const SidebarInfo = () => {
             <ul className="style-none d-flex align-items-center justify-content-center social-icon">
                <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
-               <li><Link href="#"><i className="fa-brands fa-instagram"></i></Link></li>
+               <li><Link href="https://www.instagram.com/rmw.na/"><i className="fa-brands fa-instagram"></i></Link></li>
                <li><Link href="#"><i className="fa-brands fa-linkedin"></i></Link></li>
             </ul>
          </div>

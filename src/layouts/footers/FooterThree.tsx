@@ -23,7 +23,7 @@ const FooterThree = () => {
                         <ul className="style-none d-flex align-items-center social-icon">
                            <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                            <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
-                           <li><Link href="#"><i className="fa-brands fa-instagram"></i></Link></li>
+                           <li><Link href="https://www.instagram.com/rmw.na/"><i className="fa-brands fa-instagram"></i></Link></li>
                         </ul>
                         <Image src={footerShape_1} alt="" className="lazy-img ms-auto d-none d-xl-block" />
                      </div>

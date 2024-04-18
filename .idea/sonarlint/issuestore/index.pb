@@ -17,3 +17,21 @@ U
 %public/assets/images/icon/icon_07.svg,d/5/d500d3fdc4369135806d90f29ccefe2c9947b137
 V
 &src/components/common/CardStyleTwo.tsx,3/0/3035a11047cbacb51f334afde7e37ba8c888ba30
+t
+Dsrc/components/inner-pages/about-us/about-us-one/BLockFeatureOne.tsx,0/1/018f2ac397bfc74a5e35513e01539d6f4c22a01a
+z
+Jsrc/components/inner-pages/services/service-details/ServiceDetailsArea.tsx,4/4/4456ec44d095d346756b088be2ae79c57345d8f4
+Å
+Qsrc/components/inner-pages/services/auto_detailing-details/ServiceDetailsArea.tsx,5/e/5efb36d58fcf11331f05f776079093a68fa1bbf9
+b
+2src/components/homes/home-one/BLockFeatureFive.tsx,1/f/1f9d43cf0a7cdb7fd40514c59fb3f8ebd8dbd9f0
+É
+Ssrc/components/inner-pages/services/paint_protection-details/ServiceDetailsArea.tsx,4/b/4be8dfa30f4f0e1856f021b6eaadad5718f85b46
+É
+Ssrc/components/inner-pages/services/maintenance_wash-details/ServiceDetailsArea.tsx,2/d/2d533f7283aca9698f6119c830d4569ceb09dee8
+U
+%src/components/common/ScrollToTop.tsx,e/a/ea9ccca90f58b80bf5541af4723b12e04897b52d
+O
+src/hooks/useShortedProperty.ts,f/f/ffb699366eeea23b8e982460c05449cbcb1cb0dc
+B
+src/app/layout.tsx,c/f/cfb47de6ae0cae626eed46461300112ef521d977

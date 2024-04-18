@@ -21,9 +21,9 @@ interface ContentType {
 const footer_content: ContentType = {
    title: "Our Newsletter",
    desc_1: "Get instant news by subscribe to our newsletter",
-   desc_2: "11910 Clyde Rapid Suite 210, Wil, Virginia, USA",
-   email: "homyreal@demo.com",
-   number: "+757 699-4478",
+   desc_2: "3180 Florence Rd bldg 100 suite 103, Powder Springs, Georgia",
+   email: "info@rmwna.com",
+   number: "+1 404 337-6017",
    icon: ["facebook-f", "twitter", "instagram"],
 }
 
@@ -75,10 +75,9 @@ const FooterTwo = () => {
 
                         <ul className="style-none d-flex align-items-center social-icon">
                            {icon.map((icon, i) => (
-                              <li key={i}><Link href="#"><i className={`fa-brands fa-${icon}`}></i></Link></li>
+                              <li key={i}><Link href="https://www.instagram.com/rmw.na/"><i className={`fa-brands fa-${icon}`}></i></Link></li>
                            ))}
                         </ul>
-                        <Image src={footerShape_1} alt="" className="lazy-img shapes shape_01 d-none d-xl-block" />
                      </div>
                   </div>
 
@@ -98,7 +97,6 @@ const FooterTwo = () => {
                               </div>
                            ))}
                            <div className="col-xxl-3 col-lg-2 d-none d-lg-block">
-                              <Image src={footerShape_2} alt="" className="lazy-img mt-50" />
                            </div>
                         </div>
                      </div>
@@ -109,11 +107,10 @@ const FooterTwo = () => {
             <div className="bottom-footer">
                <div className="d-md-flex justify-content-center justify-content-md-between align-items-center">
                   <ul className="style-none bottom-nav d-flex flex-wrap justify-content-center">
-                     <li><Link href="/faq">Privacy &amp; Terms</Link></li>
-                     <li><Link href="/faq">Cookies</Link></li>
+                     <li><Link href="/faq">Questions?</Link></li>
                      <li><Link href="/contact">Contact Us</Link></li>
                   </ul>
-                  <p className="mb-15 text-center text-lg-start order-md-first">Copyright @2024 Homy inc.</p>
+                  <p className="mb-15 text-center text-lg-start order-md-first">Site created by Astro Digital Labs </p>
                </div>
             </div>
          </div>

@@ -18,12 +18,12 @@ const FooterFour = () => {
                               <Image src={footerLogo} alt="" />
                            </Link>
                         </div>
-                        <p className="mb-30 xs-mb-20">11910 Clyde Rapid Suite 210, Willyand, Virginia, United States</p>
-                        <Link href="#" className="email tran3s mb-60 md-mb-30">homyreal@demo.com</Link>
+                        <p className="mb-30 xs-mb-20">3180 Florence Rd bldg 100 suite 103, Powder Springs, Georgia</p>
+                        <Link href="#" className="email tran3s mb-60 md-mb-30">info@rmwna.com</Link>
                         <ul className="style-none d-flex align-items-center social-icon">
                            <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                            <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
-                           <li><Link href="#"><i className="fa-brands fa-instagram"></i></Link></li>
+                           <li><Link href="https://www.instagram.com/rmw.na/"><i className="fa-brands fa-instagram"></i></Link></li>
                         </ul>
                      </div>
                   </div>
@@ -42,7 +42,7 @@ const FooterFour = () => {
                </div>
             </div>
             <div className="bottom-footer">
-               <p className="m0 text-center fs-16">Copyright @2024 Homy inc.</p>
+               <p className="m0 text-center fs-16">Site created by Astro Digital Labs</p>
             </div>
          </div>
          <Image src={footerShape} alt="" className="lazy-img shapes shape_01" />

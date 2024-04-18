@@ -6,7 +6,7 @@ import { useState } from "react"
 import UseSticky from "@/hooks/UseSticky"
 import LoginModal from "@/modals/LoginModal"
 
-import logo_1 from "@/assets/images/logo/logo_01.svg";
+import logo_1 from "@/assets/images/logo/LOGO-06.png";
 
 const HeaderOne = ({ style }: any) => {
    const { sticky } = UseSticky();
@@ -22,7 +22,7 @@ const HeaderOne = ({ style }: any) => {
                   <div className="d-flex align-items-center justify-content-between">
                      <div className="logo order-lg-0">
                         <Link href="/" className="d-flex align-items-center">
-                           <Image src={logo_1} alt="" />
+                           <Image style={{width: '12rem'}} src={logo_1} alt="" />
                         </Link>
                      </div>
                      <nav className="navbar navbar-expand-lg p0 order-lg-2">

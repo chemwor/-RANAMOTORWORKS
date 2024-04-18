@@ -121,7 +121,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: any) => {
                      className="style-none d-flex flex-wrap w-100 justify-content-between align-items-center social-icon pt-25 mt-auto">
                      <li><Link href="#"><i className="fa-brands fa-whatsapp"></i></Link></li>
                      <li><Link href="#"><i className="fa-brands fa-x-twitter"></i></Link></li>
-                     <li><Link href="#"><i className="fa-brands fa-instagram"></i></Link></li>
+                     <li><Link href="https://www.instagram.com/rmw.na/"><i className="fa-brands fa-instagram"></i></Link></li>
                      <li><Link href="#"><i className="fa-brands fa-viber"></i></Link></li>
                   </ul>
                </div>
