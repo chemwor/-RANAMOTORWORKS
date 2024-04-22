@@ -1,9 +1,10 @@
 import Image from "next/image"
 
-import footerLogo from "@/assets/images/logo/logo_06.svg"
+import footerLogo from "@/assets/images/logo/LOGO-04.png"
 import footerShape from "@/assets/images/assets/ils_06.svg"
 import Link from "next/link"
 import footer_data from "@/data/home-data/FooterData"
+
 
 const FooterFour = () => {
    return (
@@ -15,14 +16,14 @@ const FooterFour = () => {
                      <div className="footer-intro">
                         <div className="logo mb-20">
                            <Link href="/">
-                              <Image src={footerLogo} alt="" />
+                              <Image style={{width: '10rem'}} src={footerLogo} alt="" />
                            </Link>
                         </div>
                         <p className="mb-30 xs-mb-20">3180 Florence Rd bldg 100 suite 103, Powder Springs, Georgia</p>
                         <Link href="#" className="email tran3s mb-60 md-mb-30">info@rmwna.com</Link>
                         <ul className="style-none d-flex align-items-center social-icon">
-                           <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
-                           <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
+                           <li><Link href="https://www.facebook.com/rmw.na1"><i className="fa-brands fa-facebook-f"></i></Link></li>
+                           <li><Link href="https://www.tiktok.com/@rmw.na"><i className="fa-brands fa-tiktok"></i></Link></li>
                            <li><Link href="https://www.instagram.com/rmw.na/"><i className="fa-brands fa-instagram"></i></Link></li>
                         </ul>
                      </div>

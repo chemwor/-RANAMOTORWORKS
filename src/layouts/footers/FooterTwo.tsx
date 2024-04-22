@@ -2,7 +2,7 @@
 import Image from "next/image"
 import Link from "next/link";
 
-import footerLogo_1 from "@/assets/images/logo/logo_05.svg"
+import footerLogo_1 from "@/assets/images/logo/LOGO-04.png"
 import footerShape_1 from "@/assets/images/shape/shape_46.svg"
 import footerShape_2 from "@/assets/images/shape/shape_47.svg"
 import footerIcon_1 from "@/assets/images/icon/icon_30.svg"
@@ -16,6 +16,7 @@ interface ContentType {
    email: string;
    number: string;
    icon: string[];
+   link_list: string[];
 }
 
 const footer_content: ContentType = {
@@ -24,10 +25,11 @@ const footer_content: ContentType = {
    desc_2: "3180 Florence Rd bldg 100 suite 103, Powder Springs, Georgia",
    email: "info@rmwna.com",
    number: "+1 404 337-6017",
-   icon: ["facebook-f", "twitter", "instagram"],
+   icon: ["facebook-f", "tiktok", "instagram"],
+   link_list: ["https://www.facebook.com/rmw.na1", "https://www.tiktok.com/@rmw.na","https://www.instagram.com/rmw.na/"],
 }
 
-const { title, desc_1, desc_2, email, number, icon } = footer_content;
+const { title, desc_1, desc_2, email, number, icon, link_list } = footer_content;
 
 const FooterTwo = () => {
    return (
@@ -58,7 +60,7 @@ const FooterTwo = () => {
                      <div className="footer-intro position-relative z-1 pt-70 pb-150 lg-pb-20">
                         <div className="logo mb-15">
                            <Link href="/">
-                              <Image src={footerLogo_1} alt="" />
+                              <Image style={{width: '10rem'}} src={footerLogo_1} alt="" />
                            </Link>
                         </div>
                         <p className="mb-45 lg-mb-30 pe-2 pe-lg-5">{desc_2}</p>
@@ -75,7 +77,7 @@ const FooterTwo = () => {
 
                         <ul className="style-none d-flex align-items-center social-icon">
                            {icon.map((icon, i) => (
-                              <li key={i}><Link href="https://www.instagram.com/rmw.na/"><i className={`fa-brands fa-${icon}`}></i></Link></li>
+                              <li key={i}><Link href={link_list[i]}><i className={`fa-brands fa-${icon}`}></i></Link></li>
                            ))}
                         </ul>
                      </div>

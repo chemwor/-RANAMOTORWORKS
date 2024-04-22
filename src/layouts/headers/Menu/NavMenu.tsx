@@ -89,6 +89,9 @@ const NavMenu = () => {
             <li className="nav-item">
                 <Link className="nav-link" href="/faq">FAQ</Link>
             </li>
+            <li className="nav-item">
+                <Link className="nav-link" href="https://app.urable.com/virtual-shop/7paJFikNwRT4EVV82GHz">Shop</Link>
+            </li>
         </ul>
     );
 };

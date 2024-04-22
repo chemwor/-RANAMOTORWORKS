@@ -8,9 +8,9 @@ import LoginModal from "@/modals/LoginModal"
 import Offcanvas from "./Menu/Offcanvas"
 import HeaderSearchbar from "./Menu/HeaderSearchbar"
 
-import logo_1 from "@/assets/images/logo/LOGO-04.png";
-import logo_2 from "@/assets/images/logo/LOGO-04.png";
-import logo_3 from "@/assets/images/logo/LOGO-04.png";
+import logo_1 from "@/assets/images/logo/LOGO-06.png";
+import logo_2 from "@/assets/images/logo/LOGO-06.png";
+import logo_3 from "@/assets/images/logo/LOGO-06.png";
 
 const HeaderTwo = ({ style_1, style_2 }: any) => {
    const { sticky } = UseSticky();
@@ -25,7 +25,7 @@ const HeaderTwo = ({ style_1, style_2 }: any) => {
                   <div className="d-flex align-items-center">
                      <div className="logo order-lg-0">
                         <Link href="/" className="d-flex align-items-center">
-                           <Image style={{width: '5rem'}} src={style_2 ? logo_3 : style_1 ? logo_2 : logo_1} alt="" />
+                           <Image style={{width: '10rem'}} src={style_2 ? logo_3 : style_1 ? logo_2 : logo_1} alt="" />
                         </Link>
                      </div>
 
