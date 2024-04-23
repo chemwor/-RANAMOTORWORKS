@@ -2,7 +2,7 @@ import DashboardSavedSearch from "@/components/dashboard/saved-search";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "Dashboard Saved Search Homy - Real Estate React Next js Template",
+   title: "Dashboard Saved Search  | RanaMotorWorks | Ceramic Coating",
 };
 const index = () => {
    return (

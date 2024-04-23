@@ -31,7 +31,7 @@ const BLockFeatureOne = () => {
                            <Image src={item.icon ? item.icon : ""} alt="" className="lazy-img icon" />
                            <h5 className="mt-35 mb-20">{item.title}</h5>
                            <p className="fs-22 mb-50">{item.desc}</p>
-                           <Link href="listing_10" className="btn-twelve mt-auto">{item.btn}</Link>
+                           <Link href={item.link_name} className="btn-twelve mt-auto">{item.btn}</Link>
                         </div>
                      </div>
                   ))}

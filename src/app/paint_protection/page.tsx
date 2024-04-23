@@ -2,7 +2,7 @@ import Wrapper from "@/layouts/Wrapper";
 import PaintProtectionServiceDetails from "@/components/inner-pages/services/paint_protection-details";
 
 export const metadata = {
-   title: "Service Details Homy - Real Estate React Next js Template",
+   title: "Paint Protection | RanaMotorWorks - Premium Ceramic Coating Solutions",
 };
 const index = () => {
    return (

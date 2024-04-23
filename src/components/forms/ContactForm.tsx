@@ -72,7 +72,7 @@ const ContactForm = () => {
            {/*   </div>*/}
            {/*</div>*/}
            <iframe src="https://app.urable.com/form/7paJFikNwRT4EVV82GHz/NNTjwtuhy5lTjQe8gyxo" scrolling="no"
-                    height="800px" width="100%"></iframe>
+                    height="990px" width="100%"></iframe>
        </form>
    )
 }

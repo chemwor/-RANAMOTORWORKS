@@ -46,7 +46,7 @@ const FooterFour = () => {
                <p className="m0 text-center fs-16">Site created by Astro Digital Labs</p>
             </div>
          </div>
-         <Image src={footerShape} alt="" className="lazy-img shapes shape_01" />
+         {/*<Image src={footerShape} alt="" className="lazy-img shapes shape_01" />*/}
       </div>
    )
 }

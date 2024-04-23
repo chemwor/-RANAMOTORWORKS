@@ -13,35 +13,28 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
-      <head>
-        <meta name="keywords" content="Real estate, Property sale, Property buy" />
-        <meta name="description" content="Homy is a beautiful website template designed for Real Estate Agency." />
-        <meta property="og:site_name" content="Homy" />
-        <meta property="og:url" content="https://creativegigstf.com" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Homy - Real Estate React Next js Template" />
-        <meta name='og:image' content='images/assets/ogg.png' />
-        {/* For IE  */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        {/* For Resposive Device */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* For Window Tab Color */}
-        {/* Chrome, Firefox OS and Opera */}
-        <meta name="theme-color" content="#0D1A1C" />
-        {/* Windows Phone */}
-        <meta name="msapplication-navbutton-color" content="#0D1A1C" />
-        {/* iOS Safari */}
-        <meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C" />
-        <link rel="icon" href="/favicon.png" sizes="any" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" />
-      </head>
-      <body suppressHydrationWarning={true}>
-        <div className="main-page-wrapper">
-          <Provider store={store}>
-            {children}
-          </Provider>
-        </div>
-      </body>
+    <head>
+      <meta name="keywords" content="Ceramic Coating Solutions, Automotive Excellence, Expert Car Care"/>
+      <meta name="description" content="RanaMotorWorks, we elevate your driving experience with premium detailing and state-of-the-art ceramic coating services"/>
+      {/*<meta property="og:site_name" content="Homy"/>*/}
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="RanaMotorWorks | Premium Ceramic Coating Solutions"/>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+      <link rel="manifest" href="/site.webmanifest"/>
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+      <meta name="msapplication-TileColor" content="#da532c"/>
+      <meta name="theme-color" content="#ffffff"/>
+    </head>
+    <body suppressHydrationWarning={true}>
+    <div className="main-page-wrapper">
+      <Provider store={store}>
+        {children}
+      </Provider>
+    </div>
+    </body>
     </html>
   )
 }
