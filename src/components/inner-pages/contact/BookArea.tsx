@@ -3,6 +3,7 @@ import Image from "next/image"
 
 import circleImg from "@/assets/images/icon/icon_39.svg"
 import ContactForm from "@/components/forms/ContactForm";
+import BookForm from "@/components/forms/BookForm";
 
 interface DataType {
    id: number;
@@ -68,13 +69,14 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-xl-7 col-lg-6">
                   <div className="form-style-one wow fadeInUp">
-                     <ContactForm />
+
+                     <BookForm />
                   </div>
                </div>
                <div className="col-xl-5 col-lg-6 d-flex order-lg-first">
                   <div className="contact-map-banner w-100">
                      <div className="gmap_canvas h-100 w-100">
-                        <iframe className="gmap_iframe h-100 w-100" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dhaka collage&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <iframe className="gmap_iframe h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13249.512849064577!2d-84.705512!3d33.879912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f53bc7190ddda1%3A0x133343c78c3f430f!2sRanaMotorWorks%20LLC!5e0!3m2!1sen!2sus!4v1712798592392!5m2!1sen!2sus"></iframe>
                      </div>
                   </div>
                </div>

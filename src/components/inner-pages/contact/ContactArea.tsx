@@ -3,6 +3,7 @@ import Image from "next/image"
 
 import circleImg from "@/assets/images/icon/icon_39.svg"
 import ContactForm from "@/components/forms/ContactForm";
+import BookForm from "@/components/forms/BookForm";
 
 interface DataType {
    id: number;
@@ -38,7 +39,7 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-xxl-9 col-xl-8 col-lg-10 m-auto">
                   <div className="title-one text-center wow fadeInUp">
-                     <h3>Questions? Feel Free to Reach Out</h3>
+                     <h3>Ready to book ? Schedule now!</h3>
                   </div>
                </div>
             </div>
@@ -69,7 +70,7 @@ const ContactArea = () => {
                <div className="col-xl-7 col-lg-6">
                   <div className="form-style-one wow fadeInUp">
 
-                     <ContactForm />
+                     <BookForm />
                   </div>
                </div>
                <div className="col-xl-5 col-lg-6 d-flex order-lg-first">

@@ -2,7 +2,7 @@ import FooterFour from '@/layouts/footers/FooterFour'
 import HeaderOne from '@/layouts/headers/HeaderOne'
 import ContactArea from './ContactArea'
 
-const Contact = () => {
+const Quote = () => {
    return (
       <>
          <HeaderOne style={true} />
@@ -12,4 +12,4 @@ const Contact = () => {
    )
 }
 
-export default Contact
+export default Quote
